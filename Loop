@@ -1,0 +1,14 @@
+#for loop
+# for i in range(0,11):
+    # print("Number:",i)
+#result =13
+#for i in range(0,11):
+    #result=result+i
+#print("Result for iteraction",i,":",result)
+    #because the iteraction range is known
+#print("result:",result)
+    #because the iteraction range is known
+#print("Result:",result)
+#height=int(input("Enter the number of rows:"))
+#for j in range(1,height+1):
+    #print("*"*j)

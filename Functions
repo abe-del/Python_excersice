@@ -1,0 +1,38 @@
+#array searching
+
+def arrayCreation():
+    numbers=[]
+    #Accept the collection from users
+    user_input =input("Enter the numbers separeted by comma:")
+    input_values=user_input.split(",")
+    for values in input_values:
+        numbers.append(int(values.strip()))
+    print(numbers)
+    return numbers #it returns the array that has been creatrd
+
+    #Initialize index and boolean flag
+def arraysearching(number,arrayName):
+    index=0
+    found=False
+    #While loop condition based on the boolen value found
+    while index <len(arrayName) and not found:
+        if arrayName[index]==number:
+            found=True # Set found to True if the target is found
+        index +=1 #Move to the next index
+    return found
+
+
+numbers_array=arrayCreation()
+secondArray = arrayCreation()
+print(numbers_array)
+
+print(secondArray)
+## set the value we are looking for
+target_value=int(input("Enter the number to search:"))
+# # check if the value was foundand print the result
+if arraysearching(target_value,numbers_array):
+    print(f"value {target_value}found in the array.")
+else:
+    print(f"value {target_value} not found in the array.")
+                
+

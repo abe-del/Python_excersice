@@ -1,0 +1,9 @@
+#create a function that computes the factorial of a number
+def factorialOfNumbers(number): # number is the parameter
+    if(number  ==0):
+        return 1
+    else:#calculate the factorial of the number by calling the function
+        return number*factorialOfNumbers(number -1)
+user_input = int(input("Enter the number:"))
+result= factorialOfNumbers(user_input)
+print("The factorial of", number_one," is:",result)
