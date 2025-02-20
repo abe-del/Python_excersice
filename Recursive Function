@@ -7,3 +7,4 @@ def factorialOfNumbers(number): # number is the parameter
 user_input = int(input("Enter the number:"))
 result= factorialOfNumbers(user_input)
 print("The factorial of", number_one," is:",result)
+ 

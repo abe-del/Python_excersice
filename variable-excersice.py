@@ -1,4 +1,4 @@
-0..# gemechu="Hi I am Gemechu"
+# gemechu="Hi I am Gemechu"
 # gemechu_age=30
 # gemechu_address="piassa"
 # gemechu_occupation="software developer"
