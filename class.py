@@ -19,5 +19,7 @@ object_2 = Hotel("Sheraton",1500,"Addis Ababa","Spa, meeting hall")
 print(object_1.viewHotelRooms())
 object_3 = Hotel("Hilton",2500,"Addis Ababa","Spa, meeting hall")
 print(object_3.viewHotelLocation(),object_3.viewHotelservices())
+object_4 = Hotel("jersalem",300,"Adama","basketball,spa")
+print(object_4.viewHotelRooms())
 
     
